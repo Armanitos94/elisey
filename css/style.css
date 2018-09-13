@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.btn-register {
+.btn-register, #call-to-action .cta-btn {
   background: #2dc997;
   border: 2px solid #2dc997;
   font-family: "Poppins", sans-serif;
@@ -224,7 +224,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-.btn-register:hover, .btn-register:focus {
+.btn-register:hover, .btn-register:focus, 
+#call-to-action .cta-btn:hover, #call-to-action .cta-btn:focus {
     color: #fff;
     background-color: #168e5e;
     border-color: #168e5e;
@@ -721,26 +722,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     align-items: center;
     justify-content: flex-end;
   }
-}
-
-#call-to-action .cta-btn {
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 30px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#call-to-action .cta-btn:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
 }
 
 /* Portfolio Section
